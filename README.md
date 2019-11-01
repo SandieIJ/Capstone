@@ -66,6 +66,15 @@ After connecting to your database, you will need to initialize the database by r
 
 ## Setting up Travis CI:
 
+Go to https://travis-ci.com/ and signup with Github
+
+Accept the Authorization of Travis CI. You’ll be redirected to GitHub.
+
+Click the green Activate button, and select the repository you will be working with to use with Travis CI.
+
+Add the stored .travis.yml file to your repository to tell Travis CI what to do. Add the .travis.yml file to git, commit and push to trigger a Travis CI build
+
+Check the build status page to see if your build passes or fails according to the return status of the build command by visiting Travis CI and selecting your repository.
 
 ## Setting up Google Cloud Platform (GCP):
 ## Connecting GCP, Github and Travis CI:

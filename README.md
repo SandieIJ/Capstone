@@ -34,7 +34,6 @@ Select `Y` and press Enter. After that enter a password for MySQL and press Ente
 Select `Y` and press Enter. You don’t need anyone but you or someone you told your password to touch your data.
 
 `Disallow root login remotely? [Y/n]`
-
 This information will be accessed only from your computer so select `Y`. In all cases this can later be changed by using the same commands.
 
 `Remove test database and access to it? [Y/n]`

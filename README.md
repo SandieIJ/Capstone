@@ -51,18 +51,22 @@ This will download all API libraries
 
 If you encounter any errors that indicate MySQL hasn't been found try running the following commands 
 `export PATH="/usr/local/mysql/bin/:$PATH"`
+
 `pip install mysqlclient`
+
 `brew install freetds` for Mac users and finally rerun the following command 
+
 `pip install apache-airflow[all]`
 
-In order to test the Aiflow connection we will require a database, for now, we will not connect any project specific database to the Airflow instance, but instead, we will use the default SQLite option. 
+In order to test the Airflow connection we will require a database, for now, we will not connect any project specific database to the Airflow instance, but instead, we will use the default SQLite option. 
 
 After connecting to your database, you will need to initialize the database by running the following command in your terminal 
 
 `airflow initdb`
 
 
-
 ## Setting up Travis CI:
+
+
 ## Setting up Google Cloud Platform (GCP):
 ## Connecting GCP, Github and Travis CI:
